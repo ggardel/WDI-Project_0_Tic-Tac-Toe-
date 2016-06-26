@@ -1,0 +1,36 @@
+body {
+  background-image: url(background_board.jpg);
+}
+h1 {
+  color: yellow;
+  font-size: 60px;
+  font-weight: bold;
+}
+h2 {
+  color:rgb(171, 161, 38);
+  font-size: 30px;
+  font-style: italic;
+}
+.title {
+  text-align: center;
+}
+.board {
+  border: 8px  rgb(187, 186, 156);
+  border-style: ridge;
+  text-align: center;
+  color: rgb(12, 159, 84);
+  font-size: 80px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 60px;
+
+}
+.cube {
+ width: 100px;
+ height: 100px;
+}
+#restart {
+  background-color: orange;
+  margin: auto 47%;
+  width:80px;
+}
