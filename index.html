@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
 </head>
 
-<body>
+<body onload="playStart();">
   <div class="title">
     <h1 id="tic_title">Tic-Tac-Toe</h1>
     <h2 id="subtitle">It's time to play!</h2>
@@ -17,24 +17,24 @@
     <div class="boardArea">
       <table border = "4" class = "board">
         <tr>
-          <td class="cube">x</td>
-          <td class="cube">x</td>
-          <td class="cube">x</td>
+          <td id="a1" class="space"  onclick="nextPlay(this);"></td>
+          <td id="a2" class="space"  onclick="nextPlay(this);"></td>
+          <td id="a3" class="space"  onclick="nextPlay(this);"></td>
         </tr>
         <tr>
-          <td class="cube">x</td>
-          <td class="cube">x</td>
-          <td class="cube">x</td>
+          <td id="a4" class="space"  onclick="nextPlay(this);"></td>
+          <td id="a5" class="space"  onclick="nextPlay(this);"></td>
+          <td id="a6" class="space"  onclick="nextPlay(this);"></td>
         </tr>
         <tr>
-          <td class="cube">x</td>
-          <td class="cube">x</td>
-          <td class="cube">x</td>
+          <td id="a7" class="space"  onclick="nextPlay(this);"></td>
+          <td id="a8" class="space"  onclick="nextPlay(this);"></td>
+          <td id="a9" class="space"  onclick="nextPlay(this);"></td>
         </tr>
       </table>
     </div>
     <div>
-       <button  id = "restart" type="click" name="restart">Restart</button>
+       <button  id = "restart" type="click" name="restart" onclick="playStart()">Restart</button>
     </div>
   </section>
 

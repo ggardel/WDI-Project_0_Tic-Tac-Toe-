@@ -18,14 +18,15 @@ h2 {
   border: 8px  rgb(187, 186, 156);
   border-style: ridge;
   text-align: center;
-  color: rgb(12, 159, 84);
+  color: rgb(10, 80, 44);
   font-size: 80px;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 60px;
+  background-color: rgb(128, 128, 108);
 
 }
-.cube {
+.space {
  width: 100px;
  height: 100px;
 }
